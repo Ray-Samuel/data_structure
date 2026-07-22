@@ -2,7 +2,14 @@
 #include "binhogol.h"
 
 void main(){
-  int a;
-  leia(&a);
-  imprima(a);
+
+  leiaInt();
+  imprimaInt(10);
+
+  leiaFloat();
+  imprimaFloat(56.43);
+  
+  leiaChar();
+  imprimaChar('c');
+  
 }

@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-int leia(){
-  int x;
-  scanf("%d", &x);
-  return x;
+// INTEIROS
+void main(){
+  x = 10;
+  y = 'c';
+  z = 3.56;
+  
+  printf(typedef(x));
 }

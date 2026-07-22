@@ -1,25 +1,43 @@
 #include <stdio.h>
+// SEPARAÇÃO
+void hl(){
+  printf("\n------------\n");
+}
+
+
+
 
 // INTEIROS
-void leiaInt(int *var){
-  scanf("%d", var);
+void leiaInt(){
+  int x;
+  scanf("%d", &x);
+  hl();
 }
-void imprimaInt(int var){
-  printf("%d", var);
+void imprimaInt(int x){
+  printf("%d", x);
+  hl();
 }
 
 // REAIS
-void leiaFloat(float *var){
-  scanf("%f", var);
+void leiaFloat() {
+    float x;
+    scanf("%f", &x);
+    hl();
 }
-void imprimaFloat(float var){
-  printf("%2.f", var);
+
+void imprimaFloat(float x) {
+    printf("%.2f", x);
+    hl();
 }
 
 // CARACTERES
-void leiaChar(char *var){
-  scanf("%f", var);
+void leiaChar() {
+    char x;
+    scanf(" %c", &x);
+    hl();
 }
-void imprimaChar(char var){
-  printf("%2.f", var);
+
+void imprimaChar(char x) {
+    printf("%c", x);
+    hl();
 }
